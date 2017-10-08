@@ -9,12 +9,15 @@
 </head>
 
 <body>
-  <div id="wrap">
+  <!-- wrap div creates padding around the page  -->
+  <div class="spacing">
     <h1 style = "font-size:50px">FlipStitch Pillow</h1>
     <div id="product_layout">
-      <div class="product_image"> <br><br>
+      <div class="product_image">
         <img src="https://i.imgur.com/ftcb9B3.jpg"/>
       </div>
+
+      <!-- product info contains the text -->
       <div class="product_info">
         <h1>Couch Pillow</h1>
         <div class="price"> <h2>$29.95</h2></div>
@@ -23,8 +26,12 @@
           <p>Choose in various shapes below.</p>
         </div>
         <span class="sku">SKU:253292</span>
+
+        <!-- options contain various ways to customize product -->
         <div class="options">
-         <div class="buying_options">
+
+          <!-- Allows user to select types of shapes for pillow -->
+          <div class="buying_options">
            <div class="select">
              <select id="shape">
                <option value = "0">Select Pillow Shape</option>
@@ -37,14 +44,20 @@
                <option value = "7">Custom</option>
              </select>
            </div>
-           <input class="custom-message" type="Test" name="Test">
+
+           <!-- Allows text Input -->
+           <input class="custom-message" type="text">
            <button>Add Custom Message!</button>
          </div>
+
+         <!-- Allows user to add quantity -->
          <div class="buying">
            <div class="quantity">
              <label for="quantity">QTY:</label>
-             <input type="text">
+             <input type="text" placeholder="1">
            </div>
+
+           <!-- Allows user to add to cart (and links to a shopping cart later on) -->
            <div class="cart">
              <a href="#" class="add">Add to Cart</a>
            </div>
