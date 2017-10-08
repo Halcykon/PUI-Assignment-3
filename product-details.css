@@ -138,6 +138,11 @@ img{
   text-align: center;
 }
 
+  /*makes links black*/
+  .link-color {
+    color:black; text-decoration : none;
+}
+
 /*Makes page responsive*/
 @media (max-width:900px){
   #product_layout .product_image,#product_layout .product_info,#product_layout .reviews,#product_layout .related,#product_layout .product_info .buying,#product_layout .product_info .buying_options, #product_layout .product_info .social{width:100%; margin-left:0;margin-right:0}

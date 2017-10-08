@@ -35,6 +35,11 @@
     color:white; text-decoration : none;
 }
 
+  /*makes links black*/
+  .link-color2 {
+    color:black; text-decoration : none;
+}
+
 /*sets styling for shopping button*/
 .hero-text button {
   border:none;
