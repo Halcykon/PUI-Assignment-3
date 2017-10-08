@@ -8,46 +8,59 @@ h1{
 img{
   max-width:100%;
 }
-#wrap{
+
+/*wrap div creates padding around the page*/
+.spacing{
   width:80%;
   margin:0 auto;
   padding-top:1px;
   padding-bottom:30px;
 }
+
+/*sets style for product image*/
 #product_layout .product_image{
-  width:30%;
+  padding-top: 25px;
   max-width:320px;
   float:left;
 }
+
+/*sets style for description right of photo*/
 #product_layout .product_info{
   width:66%;
   float:left;
   margin-left:4%;
 }
 
+/*sets style for title*/
 #product_layout .product_info h1{
   font-size:3.6em;
   line-height:.8;
 }
+
+/*sets style for product price*/
 #product_layout .product_info .price{
-  margin-top:-50px;
+  margin-top:-20px;
   font-size:2.8em;
   width:20%;
-  display:inline-block;
 }
+
+/*sets style for product description*/
 #product_layout .product_info .product_description{
  font-size:2em;
 }
+
+/*Sets style for different shape offerings*/
 #product_layout .product_info .buying_options{
   width:45%;
   float:left;
 }
 
+/*Sets style for custom messages*/
 #product_layout .product_info .custom-message{
   width:40%;
   float:left;
   margin-right: 20px;
-padding: 1px;
+  padding: 1px;
 }
 
 #product_layout .product_info .buying{
@@ -55,6 +68,8 @@ padding: 1px;
   float:left;
   margin-left:10%;
 }
+
+/*sets style for the menu option*/
 #product_layout .product_info .buying_options .select{
   width: 100%;
   max-width:300px;
@@ -66,6 +81,8 @@ padding: 1px;
   margin-top:35px;
   margin-bottom: 20px;
 }
+
+/*sets style for the tag select*/
 #product_layout .product_info .buying_options select{
   background: transparent;
   display:block;
@@ -78,12 +95,14 @@ padding: 1px;
   height: 40px;
   -webkit-appearance: none;
 }
+
 #product_layout .product_info .buying .quantity{
   font-size:2em;
   margin-top:35px;
   width:100%;
   display:block;
 }
+
 #product_layout .product_info .buying .quantity [type="text"]{
   width:40px;
   height:40px;
@@ -93,12 +112,14 @@ padding: 1px;
   box-sizing:border-box;
   font-size:1em;
 }
+
 #product_layout .product_info .buying .cart{
   margin-top:25px;
   width:100%;
   float:left;
   margin-bottom:20px;
 }
+
 #product_layout .product_info .buying .cart a.add{
   font-size:2em;
   color:#FFF;
@@ -110,12 +131,14 @@ padding: 1px;
   margin-left:10px;
 }
 
+/*styles the footer link*/
 .footer {
-    font-size: 1.5em;
-    margin-top: 500px;
-    text-align: center;
+  font-size: 1.5em;
+  margin-top: 500px;
+  text-align: center;
 }
 
+/*Makes page responsive*/
 @media (max-width:900px){
   #product_layout .product_image,#product_layout .product_info,#product_layout .reviews,#product_layout .related,#product_layout .product_info .buying,#product_layout .product_info .buying_options, #product_layout .product_info .social{width:100%; margin-left:0;margin-right:0}
 }
